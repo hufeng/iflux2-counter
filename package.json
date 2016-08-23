@@ -9,8 +9,9 @@
     "start": "./node_modules/.bin/webpack-dev-server --port 3000 --progress --color --config webpack.config.js"
   },
   "dependencies": {
+    "dataloader": "^1.2.0",
     "iflux": "^1.2.14",
-    "iflux2": "^1.1.4",
+    "iflux2": "^1.1.5",
     "qm-pure-render": "^1.0.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"

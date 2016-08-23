@@ -9,6 +9,11 @@ export default class AppStore extends Store {
     ]
   }
 
+  constructor(props) {
+    super(props)
+    window.store = this
+  }
+
   //;;;;;;;;;;;;;;;;;Action;;;;;;;;;;;;;;;;;;;;;;;;;;;;
   increment = () => {
     this.dispatch('increment')

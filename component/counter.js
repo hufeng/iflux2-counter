@@ -15,12 +15,7 @@ export default class Counter extends Component {
 
 
   render() {
-    const {
-      count,
-      countQL,
-      increment,
-      decrement
-    } = this.props
+    const { count, countQL, increment, decrement } = this.props
 
     return (
       <div>
