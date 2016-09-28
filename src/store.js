@@ -11,6 +11,8 @@ export default class AppStore extends Store {
 
   constructor(props) {
     super(props)
+    //debug
+    //you can quickly test in chrome
     window.store = this
   }
 

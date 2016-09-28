@@ -1,6 +1,8 @@
 import { Actor, Action } from 'iflux2'
 
-
+/**
+ * CounterActor
+ */
 export default class CounterActor extends Actor {
   defaultState() {
     return {
